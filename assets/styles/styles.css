@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
     margin: 0;
     padding: 0;
@@ -100,3 +101,62 @@ html, body {
 
 
 
+=======
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .plan-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color:#3B2AD8;
+  }
+  
+  .plan-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .plan-card {
+    background-color: #C2CEFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .plan-card h2 {
+    margin-top: 0;
+  }
+  
+  .plan-card p {
+    margin-bottom: 20px;
+  }
+  
+  .plan-card button {
+    background-color: #3B2AD8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .plan-card {
+      width: 90%;
+    }
+  }
+>>>>>>> feat/suscriptions
