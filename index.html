@@ -26,7 +26,50 @@
     <div class="hero">
         <span>Bienvenido a TeamSync!</span>
     </div>
-    
+    <div style="display: flex;">
+        <div style="flex-grow: 1;">
+          <div style="background-color: #ffffff; padding: 15px; font-family: Arial, sans-serif; max-width: 350px; border-radius: 10px;">
+            <h2 style="color: #4224ac; text-align: left; margin-bottom: 5px;">Contact Us</h2>
+            <div style="background-color: rgb(104, 78, 255); padding: 20px; border-radius: 15px;">
+              <form action="/enviar" method="post" style="color: #ffffff;">
+                <h3 style="text-align: left; margin-top: 5px;">TeamSync</h3>
+                <div style="margin-top: 10px; display: flex; flex-direction: column;">
+                  <label for="nombre" style="text-align: left; margin-bottom: 5px;">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required style="border-radius: 8px; border: none; padding: 6px; font-size: 12px; margin-bottom: 10px;">
+                </div>
+                <div style="margin-top: 10px; display: flex; flex-direction: column;">
+                  <label for="apellidos" style="text-align: left; margin-bottom: 5px;">Apellidos:</label>
+                  <input type="text" id="apellidos" name="apellidos" required style="border-radius: 8px; border: none; padding: 6px; font-size: 12px; margin-bottom: 10px;">
+                </div>
+                <div style="margin-top: 10px; display: flex; flex-direction: column;">
+                  <label for="email" style="text-align: left; margin-bottom: 5px;">Email:</label>
+                  <input type="email" id="email" name="email" required style="border-radius: 8px; border: none; padding: 6px; font-size: 12px; margin-bottom: 10px;">
+                </div>
+                <div style="margin-top: 10px; display: flex; flex-direction: column;">
+                  <label for="descripcion" style="text-align: left; margin-bottom: 5px;">Descripción:</label>
+                  <textarea id="descripcion" name="descripcion" rows="4" required style="border-radius: 8px; border: none; padding: 6px; font-size: 12px; margin-bottom: 10px;"></textarea>
+                </div>
+                <div style="text-align: left; margin-top: 20px;">
+                  <button type="submit" style="background-color: rgb(132, 152, 165); color: white; padding: 10px 20px; border: none; border-radius: 5px;">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center;">
+          <img src="assets/img/tl (6).webp" alt="Imagen Contacto" style="border-radius: 10px; max-height: 80%;">
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     
 </body>
 </html>
