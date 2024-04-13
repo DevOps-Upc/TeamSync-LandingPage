@@ -159,3 +159,30 @@ body {
       width: 90%;
     }
   }
+
+  .service {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .row {
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  .column1, .column2, .column3  {
+    background-color: #C2CEFF;
+    padding: 30px;
+    margin: 10px;
+    flex: 1;
+    border-radius:8px;
+  }
+
+  .service-img {
+    width: 100px;
+    height: auto;
+    
+
+  }
+ 
