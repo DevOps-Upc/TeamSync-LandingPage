@@ -69,7 +69,7 @@ html, body {
 
 .hero {
     display: flex;
-    background-image: url("/assets/img/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+    background-image: url("https://github.com/DevOps-Upc/TeamSync-LandingPage/blob/main/assets/img/marvin-meyer-SYTO3xs06fU-unsplash.jpg?raw=true");
     background-size: cover; 
     width: 100%; 
     height: 500px;
